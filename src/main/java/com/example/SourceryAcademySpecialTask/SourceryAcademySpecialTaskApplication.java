@@ -10,16 +10,14 @@ public class SourceryAcademySpecialTaskApplication {
 
     public static void main(String[] args) {
 
-//		Scanner scanner = new Scanner(System.in);
-//
-//		System.out.println("Please write starting year");
-//		int year1 = scanner.nextInt();
-//
-//		System.out.println("please write finishing year");
-//		int year2 = scanner.nextInt();
+		Scanner scanner = new Scanner(System.in);
 
-        int year1 = 1800;
-        int year2 = 2050;
+		System.out.println("Please write starting year");
+		int year1 = scanner.nextInt();
+
+		System.out.println("please write finishing year");
+		int year2 = scanner.nextInt();
+
         printBonusDatesBetween(year1, year2);
 
     }
